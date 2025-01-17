@@ -46,6 +46,8 @@ header{
     padding-top: 50px;
     justify-content: space-between;
     align-items: center;
+    margin-left: 228px;
+    margin-right: 240px;
 }
 .brand-name{
     font-weight: 700;
@@ -66,12 +68,13 @@ header{
 /* banner styles */
 .banner{
     padding-top: 105px;
+    margin-left: 240px;
+    margin-right: 240px;
 }
 .banner-container{
     max-width: 850px;
     margin: 0 auto;
     text-align: center;
-    border: 2px solid aqua;
     margin-bottom: 50px;
 }
 .banner-description{
@@ -125,9 +128,50 @@ header{
     font-weight: 400;
   }
 /* responsive media query */
+
+/* small device responsive*/
 @media screen and (max-width: 576px) {
     .navbar, .nav-links-container{
         flex-direction: column;
     }
+    .navbar, .banner{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .banner{
+        padding-top: 50px;
+    }
+    .banner-title{
+        font-size: 3.5rem;
+    }
+    .quick-container{
+        flex-direction: column;
+    }
+    .quick-image-container{
+        grid-template-columns: 1fr; 
+        padding-left: 0px;
+    }
+    .quick-content-container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
+/* medium device responsive */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    
+
+.navbar, .nav-links-container{
+    flex-direction: column;
+}
+.navbar{
+    gap:40px;
+}
+.navbar, .banner{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.quick-container{
+    flex-direction: column;
+}
+}
