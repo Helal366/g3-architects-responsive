@@ -66,9 +66,9 @@ header{
 }
 .nav-link{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 0.9375vw;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1.35vw;
     letter-spacing: 0%;
 }
 
@@ -83,11 +83,11 @@ header{
     /* max-width: 850px; */
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 2.6vw;
 }
 .banner-description{
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 2.6vw;
+    margin-bottom: 1.56vw;
 }
 .banner-title{
     font-weight: 700;
@@ -95,7 +95,7 @@ header{
 }
 .banner img{
     width: 100%;
-    margin-bottom: 45px;
+    margin-bottom: 2.34vw;
 }
 
 /* quick list fratures style */
@@ -128,7 +128,7 @@ header{
   }
   .of-our-words{
     color: rgb(19, 19, 19);
-    font-size: 3rem;
+    font-size: 2.5vw;
     font-weight: 700;
   }
   .features-word{
@@ -137,8 +137,8 @@ header{
     font-weight: 700;
   }
   .quick-description{
-    margin-bottom: 32px;
-    font-size: 1rem;
+    margin-bottom: 1.66vw;
+    font-size: 0.83vw;
     font-weight: 400;
   }
 /* responsive media query */
@@ -148,7 +148,7 @@ header{
     .navbar, .nav-links-container{
         flex-direction: column;
     }
-    .navbar, .banner{
+    /* .navbar, .banner{
         margin-left: 0;
         margin-right: 0;
     }
@@ -162,7 +162,7 @@ header{
     .banner-image-container{
         padding-left: 10px;
         padding-right: 10px;
-    }
+    } */
     .quick-container{
         flex-direction: column;
     }
