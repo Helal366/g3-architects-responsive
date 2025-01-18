@@ -42,6 +42,11 @@
 }
 
 /* RESPONSIVE SECTION */
+@media screen and (max-width: 576px) {
+    .footer{
+        margin-left: 10px; 
+}
+}
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .footer{
         margin-left: 20px;
