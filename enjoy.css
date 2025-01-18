@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", serif; */
+
+/* features love & enjoy section */
+.enjoy-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:7.5%;
+    margin: 0 auto;
+}
+.enjoy-content-container{
+    /* margin-left: 240px; */
+    margin-bottom: 30px;
+}
+.enjoy-title{
+    color: rgb(19, 19, 19);
+    font-size: 3rem;
+    font-weight: 700;
+    border-left: 5px solid rgb(255, 144, 14);
+    padding-left:21px;
+    margin-top: 50px;
+}
+.enjoy-title-description{
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.enjoy-card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.enjoy-card{
+    
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+.enjoy-card-title{
+    color: rgb(19, 19, 19);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 33px;
+}
+.enjoy-card-desdription{
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 10px 42px 30px 30px;
+}
+
+.enjoy-image-container img{
+    width: 100%;
+    height: 90%;
+}
+#enjoy-btn{
+    margin-left: -100px;
+    margin-top: -100px;
+    padding: 45px 42px;
+}
+.span1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.span2{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+
+/* responsive section */
+
+/* small device */
+@media screen and (max-width: 576px) {
+    .enjoy-section{
+        grid-template-columns: 1fr;
+        gap: 2%;
+    }  
+.enjoy-title, .enjoy-title-description{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.enjoy-image-container{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#enjoy-btn{
+    margin: 12px auto;
+    padding: 15px 12px;
+}
+.span1{font-size: 2rem;}
+}
+/* medium device */
+@media screen and (min-width: 586px) and (max-width: 992px) {   
+    .enjoy-title, .enjoy-title-description{
+        margin-left: 10px;
+        margin-right: 10px;}
+    
+        #enjoy-btn{
+            margin-left: -60px;
+            margin-top: -60px;
+            padding: 25px 22px;}
+
+    .span1{
+        font-size: 2rem;
+    }
+
+}
+/* large device */
+@media screen and (min-width: 992px) and (max-width: 1450px){
+    /* .enjoy-section{
+        gap: 90px;
+    } */
+    .enjoy-content-container{
+        max-width: 600px;
+    }
+}
+

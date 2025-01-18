@@ -6,11 +6,15 @@
 }
 body{
     font-family: "Work Sans", serif; 
+    box-sizing: border-box;
 }
+
+
 header{
     max-width: 1920px;
-    margin-bottom: 85px;
+    margin: 0px auto 85px auto;
     background-color: rgba(255, 144, 14, 0.1);
+   
 }
 .main section{
     margin-bottom: 130px;
@@ -37,7 +41,10 @@ header{
     font-size: 1.25rem;
     border: none;
 }
-.navbar, .banner, .quick-container, main{
+.navbar, 
+.banner
+{
+    /* box-sizing: border-box; */
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -70,9 +77,10 @@ header{
     padding-top: 105px;
     margin-left: 240px;
     margin-right: 240px;
+    
 }
 .banner-container{
-    max-width: 850px;
+    /* max-width: 850px; */
     margin: 0 auto;
     text-align: center;
     margin-bottom: 50px;
@@ -86,11 +94,16 @@ header{
     font-size: 4rem;
 }
 .banner img{
-    max-width: 100%;
+    width: 100%;
     margin-bottom: 45px;
 }
 
 /* quick list fratures style */
+.main{
+    /* box-sizing: border-box; */
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .quick-container{
     gap: 67px;
     align-items: center;
@@ -102,7 +115,8 @@ header{
       padding-left: 60px;
   }
   .quick-content-container{
-      max-width: 530px  ;
+      /* max-width: 530px  ; */
+      margin: 0 auto;
   }
   .quick-title{
     margin:24px 0;
@@ -135,14 +149,18 @@ header{
         flex-direction: column;
     }
     .navbar, .banner{
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
     }
     .banner{
-        padding-top: 50px;
+        padding-top: 30px;
     }
     .banner-title{
         font-size: 3.5rem;
+    }
+    .banner-image-container{
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .quick-container{
         flex-direction: column;
@@ -171,7 +189,21 @@ header{
     margin-left: 20px;
     margin-right: 20px;
 }
+.banner{
+    padding-top: 40px;
+}
 .quick-container{
     flex-direction: column;
+}
+.quick-image-container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding-left: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.quick-content-container{
+    padding-left: 10px;
+    padding-right: 5px;
 }
 }
