@@ -11,13 +11,13 @@ body{
 
 
 header{
-    max-width: 100vw;
-    margin: 0 auto 4.42vw auto;
+    max-width: 1920px;
+    margin: 0 auto 85px auto;
     background-color: rgba(255, 144, 14, 0.1);
    
 }
 .main section{
-    margin-bottom: 6.77vw;
+    margin-bottom: 130px;
 }
 /* Shared styles */
 .bg-light-color{
@@ -36,7 +36,7 @@ header{
     background-color: rgb(255, 144, 14);
     color: rgb(255, 255, 255);
     border-radius: 8px;
-    padding: 1vw 1.3vw;
+    padding: 20px 25px;
     font-weight: 600;
     font-size: 1.25rem;
     border: none;
@@ -50,69 +50,69 @@ header{
 }
 /* navbar styles */
 .navbar{
-    padding-top: 2.6vw;
+    padding-top: 50px;
     justify-content: space-between;
     align-items: center;
-    margin-left: 11.9vw;
-    margin-right: 12.5vw;
+    margin-left: 228px;
+    margin-right: 240px;
 }
 .brand-name{
     font-weight: 700;
-    font-size: 2.5vw;
+    font-size: 45px;
 }
 .nav-list{
     list-style: none;
-    margin-right: 1.56vw;
+    margin-right: 30px;
 }
 .nav-link{
     text-decoration: none;
-    font-size: 0.9375vw;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 1.35vw;
+    line-height: 25px;
     letter-spacing: 0%;
 }
 
 /* banner styles */
 .banner{
-    padding-top: 5.46vw;
-    margin-left: 12.5vw;
-    margin-right: 12.5vw;
+    padding-top: 105px;
+    margin-left: 240px;
+    margin-right: 240px;
     
 }
 .banner-container{
     /* max-width: 850px; */
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 2.6vw;
+    margin-bottom: 50px;
 }
 .banner-description{
-    margin-top: 2.6vw;
-    margin-bottom: 1.56vw;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 .banner-title{
     font-weight: 700;
-    font-size: 3.38vw;
+    font-size: 65px;
 }
 .banner img{
     width: 100%;
-    margin-bottom: 2.34vw;
+    margin-bottom: 45px;
 }
 
 /* quick list fratures style */
 .main{
     /* box-sizing: border-box; */
-    max-width: 75vw;
+    max-width: 1440px;
     margin: 0 auto;
 }
 .quick-container{
-    gap: 3.48vw;
+    gap: 67px;
     align-items: center;
 }
   .quick-image-container{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 1.25vw;
-      padding-left: 3.125vw;
+      gap: 24px;
+      padding-left: 60px;
   }
   .quick-content-container{
       /* max-width: 530px  ; */
@@ -123,12 +123,12 @@ header{
   }
   .quick-list-words{
     color: rgb(114, 114, 114);
-    font-size: 2.5vw;
+    font-size: 3rem;
     font-weight: 500;
   }
   .of-our-words{
     color: rgb(19, 19, 19);
-    font-size: 2.5vw;
+    font-size: 3rem;
     font-weight: 700;
   }
   .features-word{
@@ -137,8 +137,8 @@ header{
     font-weight: 700;
   }
   .quick-description{
-    margin-bottom: 1.66vw;
-    font-size: 0.83vw;
+    margin-bottom: 32px;
+    font-size: 16px;
     font-weight: 400;
   }
 /* responsive media query */
@@ -148,7 +148,7 @@ header{
     .navbar, .nav-links-container{
         flex-direction: column;
     }
-    /* .navbar, .banner{
+    .navbar, .banner{
         margin-left: 0;
         margin-right: 0;
     }
@@ -162,7 +162,7 @@ header{
     .banner-image-container{
         padding-left: 10px;
         padding-right: 10px;
-    } */
+    }
     .quick-container{
         flex-direction: column;
     }
