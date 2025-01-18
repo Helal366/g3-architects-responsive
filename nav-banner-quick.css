@@ -12,7 +12,7 @@ body{
 
 header{
     max-width: 1920px;
-    margin: 0 auto 85px auto;
+    margin-bottom: 85px;
     background-color: rgba(255, 144, 14, 0.1);
    
 }
@@ -45,7 +45,7 @@ header{
 .banner
 {
     /* box-sizing: border-box; */
-    max-width: 75vw;
+    max-width: 1440px;
     margin: 0 auto;
 }
 /* navbar styles */
@@ -145,6 +145,9 @@ header{
 
 /* small device responsive*/
 @media screen and (max-width: 576px) {
+    .brand-name{
+        text-align: center;
+    }
     .navbar, .nav-links-container{
         flex-direction: column;
     }
